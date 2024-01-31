@@ -1,2 +1,11 @@
+
 #####***Lemmatization is a text pre-processing technique used in natural language processing (NLP) models to break a word down to its root meaning to identify similarities. 
 For example, a lemmatization algorithm would reduce the word better to its root word, or lemme, good.***####  
+
+**Advantage of lemmatization is that it is more accurate than stemming. So, if you’re dealing with an NLP application such as a chat bot or a virtual assistant, where understanding the meaning of the dialogue is crucial, lemmatization would be useful. But this accuracy comes at a cost.
+
+** A lemmatization algorithm would know that the word better is derived from the word good, and hence, the lemme is good. But a stemming algorithm wouldn’t be able to do the same. There could be over-stemming or under-stemming, and the word better could be reduced to either bet, or bett, or just retained as better. But there is no way in stemming that can reduce better to its root word good. This is the difference between stemming and lemmatization.
+
+#####***Stemming is a text preprocessing technique in natural language processing (NLP). Specifically, it is the process of reducing inflected form of a word to one so-called “stem,” or root form, also known as a “lemma” in linguistics.1 It is one of two primary methods—the other being lemmatization—that reduces inflectional variants within a text dataset to one morphological lexeme. In doing so, stemming aims to improve text processing in machine learning and information retrieval systems.
+
+**In stemming, a part of the word is just chopped off at the tail end to arrive at the stem of the word. There are different algorithms used to find out how many characters have to be chopped off, but the algorithms don’t actually know the meaning of the word in the language it belongs to. In lemmatization, the algorithms do have this knowledge. In fact, you can even say that these algorithms refer to a dictionary to understand the meaning of the word before reducing it to its root word, or lemma.
