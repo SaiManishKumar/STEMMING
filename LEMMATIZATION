@@ -1,0 +1,5 @@
+#LEMMATIZATION IN GOOGLECOLAB
+
+from nltk.stem import WordNetLemmatizer['table', 'probably', 'wolves', 'playing', 'is',
+'dog', 'the', 'beaches', 'grounded', 'dreamt',
+'envision']
